@@ -55,6 +55,30 @@ ul {
 }
 
 /*------------------------
+	Portfolio
+--------------------------*/
+
+.portfolio{
+	margin-top: 20px;
+}
+
+.portfolio .mix{
+    /*display:none;*/
+}
+
+.portfolio-item{
+	padding-bottom: 60px;
+	padding-top: 5px;
+	
+}
+.portfolio-cat{
+	padding-top: 5px;
+	padding-bottom: 40px;
+	
+}
+
+
+/*------------------------
 	Helper css
 --------------------------*/
 .fix {
@@ -165,22 +189,30 @@ ul {
 	padding: 15px 50px;
 	font-weight: 500;
 	letter-spacing: 1px;
-	min-width: 170px;
+	
 	text-align: center;
 	border: none;
 }
 
 .site-btn.btn-2 {
+	font-size: 12px;
 	background: #D81B61;
 	color: #fff;
 	font-weight: 400;
+	padding: 10px 10px;
 }
 
 .site-btn.btn-3 {
-	background: transparent;
+	background: #eee;
 	color: #D81B61;
-	border: 1px solid #D81B61;
-	padding: 14px 50px;
+	/*border: 1px solid #D81B61;*/
+	padding: 15px 0px;
+	display: inline-block;
+	float:left;
+	margin-right: 5px;
+	margin-top: 5px;
+	min-width: 170px;
+
 }
 
 .site-btn:hover,
@@ -1109,11 +1141,11 @@ ul {
 }
 
 .post-title {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 400;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	margin-bottom: 18px;
+	margin-bottom: 10px;
 }
 
 .post-meta {
@@ -1166,7 +1198,7 @@ ul {
 }
 
 .page-pagination a {
-	padding-top: 50px;
+	padding-top: 400px;
 	display: inline-block;
 	font-family: "Oswald", sans-serif;
 	font-size: 16px;
