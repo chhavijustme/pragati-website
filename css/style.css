@@ -151,7 +151,7 @@ ul {
 	color: #0b1033;
 }
 
-.section-title:after {
+/*.section-title:after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -159,9 +159,9 @@ ul {
 	width: 5px;
 	height: 30px;
 	margin-left: -2.5px;
-	background: #eee;
+	background: #4c4c4c;
 }
-
+*/
 .section-title.left {
 	text-align: left;
 }
@@ -483,7 +483,7 @@ ul {
 
 .lab-card .icon {
 	margin-bottom: 30px;
-	font-size: 70px;
+	font-size: 170px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
@@ -514,7 +514,7 @@ ul {
 .lab-card:hover h2,
 .lab-card:hover p,
 .lab-card:hover .icon {
-	color: #fff;
+	color: #D81B61;
 }
 
 /* About contant */
@@ -1234,7 +1234,7 @@ ul {
 }
 
 .widget-item ul li a:hover {
-	color: #eee;
+	color: #d81b61;
 }
 
 .widget-item ul li:last-child a {
