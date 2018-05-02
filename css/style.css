@@ -72,9 +72,22 @@ ul {
 	
 }
 .portfolio-cat{
-	padding-top: 5px;
+	padding-top: 20px;
 	padding-bottom: 40px;
 	
+}
+
+.logos{
+	padding-right: 50px;
+}
+
+.video-intro{
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	padding-bottom: 20px;
 }
 
 
@@ -472,6 +485,8 @@ ul {
 	position: relative;
 	margin-top: -50px;
 	padding: 50px 25px;
+	border-color: #D81B61 !important ;
+	border: 20px !important  ;
 	text-align: center;
 	background: #f5faf8;
 	-webkit-box-shadow: 0 0 8px rgba(74, 74, 74, 0.1);
@@ -479,10 +494,11 @@ ul {
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
+
 }
 
 .lab-card .icon {
-	margin-bottom: 30px;
+	
 	font-size: 170px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -500,7 +516,7 @@ ul {
 }
 
 .lab-card p {
-	color: #6c6e7e;
+	color: #D81B61 ;
 	line-height: 30px;
 	-webkit-transition: all 0.4s ease 0s;
 	-o-transition: all 0.4s ease 0s;
@@ -916,6 +932,12 @@ ul {
 	padding: 18px 0;
 }
 
+.footer-section a {
+	color: #D81B61;
+	font-size: 14px;
+	padding: 18px 0;
+}
+
 /*=========================
 	Other Pages
 =========================*/
@@ -925,7 +947,7 @@ ul {
 --------------------------*/
 .page-top-section {
 	position: relative;
-	height: 405px;
+	/*height: 500px;*/
 	background: #D81B61;
 }
 
@@ -936,7 +958,7 @@ ul {
 
 .page-top-section .page-info {
 	display: inline-block;
-	padding-top: 200px;
+	padding-top: 120px;
 }
 
 .page-top-section .page-info h2 {
